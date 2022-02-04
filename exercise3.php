@@ -50,11 +50,9 @@ if(isset($_POST['submit'])){
     $name= $_POST['name'];
     $age = $_POST['age'];
     if($age>=18){
-        echo $name . " is eligible for voting";
-    }
+        echo $name . "<b> is eligible for voting</b>";}
     else{
-        echo $name . " is NOT eligible for voting";}
-}
+        echo $name . "<b> is not eligible for voting</b>"}
     echo "<br><br>";
 
 for($x=9;$x>1;$x--){
