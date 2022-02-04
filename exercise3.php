@@ -2,12 +2,13 @@
 
 #Task 1
 
-$d = date("F");
-if ($d == "August"){
-    echo "It's August, so it's still holiday. <br>";}
-else {
-    echo "Not August, this is February so i don't have any holidays. <br>";
+$month= date("F");
+if($month == "August") {
+    echo "It's August, so it's still holiday.";}
+else{
+    echo "Not August, This is " . $month . " so i don't have any holidays";
 }
+echo "<br>";
 
 #Task 2
 
