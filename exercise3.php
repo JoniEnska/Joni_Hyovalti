@@ -1,7 +1,6 @@
 <?php
 
 #Task 1
-
 $month= date("F");
 if($month == "August") {
     echo "It's August, so it's still holiday.";}
@@ -38,4 +37,43 @@ else{
 }
 echo "<br>";
 
+?>
+
+<form action="Exercise3.php" method="post">
+Name: <input type="text" name="name" required><br>
+Age: <input type="number" min=0 name="age" required><br>
+<input type="submit" name='submit'>
+</form>
+
+<?php
+if(isset($_POST['submit'])){
+    $name= $_POST['name'];
+    $age = $_POST['age'];
+    if($age>=18){
+        echo $name . " is eligible for voting";
+    }
+    else{
+        echo $name . " is NOT eligible for voting";}
+}
+    echo "<br><br>";
+
+for($x=9;$x>1;$x--){
+    for($i=1;$i<$x;$i++){
+        echo $i;
+    }
+    echo "<br>";
+}
+echo "<br><br>";
+
+$size=8;
+$i=1;
+while($i<=$size){
+    $x=1;
+    while($x<=$i){
+        echo "*";
+        $x++;
+    }
+    echo "<br>";
+    $i++;
+}
 ?>
