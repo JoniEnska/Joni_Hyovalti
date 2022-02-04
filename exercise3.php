@@ -11,10 +11,9 @@ else{
 echo "<br>";
 
 #Task 2
-
-$color = ("C");
-if ($color == "red"){
-    echo "The color is red.";}
-else {
-    echo "The color is not red. <br>";
-}
+$color= "red";
+if($color == "red") {
+    echo "The color is red. ";}
+else{
+    echo "The color is not red.";}
+echo "<br>";
