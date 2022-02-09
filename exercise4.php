@@ -4,9 +4,9 @@
 $courses=array("PHP", "HTML", "JavaScript", "CMS", "Project")
 */
 
-$my_array = array("PHP","HTML","JavaScript","CMS","Project");
+$courses = array("PHP","HTML","JavaScript","CMS","Project");
 
-list($a, $b, $c, $d, $e) = $my_array;
+list($a, $b, $c, $d, $e) = $courses;
 echo "Courses are $a,  $b , $c, $d, $e.";
 
 
@@ -19,7 +19,7 @@ $courses1=array("PHP", "HTML", "JavaScript", "CMS", "Project");
 */
 
 $courses1=array("PHP", "HTML", "JavaScript", "CMS", "Project");
-list($a, $b, $c, $d, $e) = $courses;
+list($a, $b, $c, $d, $e) = $courses1;
 unset($a);
 echo "Courses are $b , $c, $d, $e. <br>";
 
@@ -35,7 +35,9 @@ d) descending order sort by Key
 */
 
 $courses3=array("PHP", "HTML", "JavaScript", "CMS", "Project");
-asort($courses3);
+list($a, $b, $c, $d, $e) = $courses3;
+asort($a $b $c $d $e);
+echo "Courses are $b , $c, $d, $e. <br>";
 
 
 
