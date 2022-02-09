@@ -7,7 +7,7 @@ $courses=array("PHP", "HTML", "JavaScript", "CMS", "Project")
 $courses = array("PHP","HTML","JavaScript","CMS","Project");
 
 list($a, $b, $c, $d, $e) = $courses;
-echo "Courses are $a,  $b , $c, $d, $e.";
+echo "Courses are $a,  $b , $c, $d, $e. <br>";
 
 
 /* 2. The unset() function is used to remove element from the array.
@@ -38,10 +38,6 @@ $courses3=array("PHP", "HTML", "JavaScript", "CMS", "Project");
 list($a, $b, $c, $d, $e) = $courses3;
 asort($a $b $c $d $e);
 echo "Courses are $b , $c, $d, $e. <br>";
-
-
-
-
 
 
 /* 
