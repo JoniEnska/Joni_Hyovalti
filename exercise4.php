@@ -6,7 +6,7 @@ $courses=array("PHP", "HTML", "JavaScript", "CMS", "Project")
 
 asdasdad
 testaus
-
+adsasD
 
 /* 2. The unset() function is used to remove element from the array.
 The var_dump() function is used to dump information about a variable. 
