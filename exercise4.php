@@ -4,10 +4,11 @@
 $courses=array("PHP", "HTML", "JavaScript", "CMS", "Project")
 */
 
-asdasdad
-testaus
-adsasD
-adsa
+$my_array = array("PHP","HTML","JavaScript","CMS","Project");
+
+list($a, $b, $c, $d, $e) = $my_array;
+echo "Courses are $a,  $b , $c, $d, $e.";
+
 
 /* 2. The unset() function is used to remove element from the array.
 The var_dump() function is used to dump information about a variable. 
