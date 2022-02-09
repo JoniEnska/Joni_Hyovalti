@@ -21,7 +21,7 @@ $courses1=array("PHP", "HTML", "JavaScript", "CMS", "Project");
 $courses1=array("PHP", "HTML", "JavaScript", "CMS", "Project");
 list($a, $b, $c, $d, $e) = $courses;
 unset($a);
-echo "Courses are $a,  $b , $c, $d, $e. <br>";
+echo "Courses are $b , $c, $d, $e. <br>";
 
 
 
@@ -33,6 +33,10 @@ b) ascending order sort by Key
 c) descending order sort by Value
 d) descending order sort by Key
 */
+
+$courses3=array("PHP", "HTML", "JavaScript", "CMS", "Project");
+asort($courses3);
+
 
 
 
