@@ -18,6 +18,10 @@ Delete an element from the array below:
 $courses1=array("PHP", "HTML", "JavaScript", "CMS", "Project");
 */
 
+$courses1=array("PHP", "HTML", "JavaScript", "CMS", "Project");
+list($a, $b, $c, $d, $e) = $courses;
+unset($a);
+echo "Courses are $a,  $b , $c, $d, $e. <br>";
 
 
 
