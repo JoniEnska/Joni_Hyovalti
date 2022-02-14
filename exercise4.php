@@ -44,10 +44,11 @@ c) descending order sort by Value
 d) descending order sort by Key
 */
 
-$courses3=array("PHP", "HTML", "JavaScript", "CMS", "Project");
-list($a, $b, $c, $d, $e) = $courses3;
-asort($a $b $c $d $e);
-echo "Courses are $b , $c, $d, $e. <br>";
+$courses3=array ("PHP", "HTML", "JavaScript", "CMS", "Project");
+echo "a) ascending order by value<br>";
+asort ($courses3);
+foreach ($courses3 as $i){
+    echo $i . "<br>";
 
 
 /* 
