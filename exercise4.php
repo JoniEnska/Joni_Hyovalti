@@ -91,12 +91,18 @@ echo $i "<br>";
 
 echo "<br>";
 
-
-
-
-
-
 // 5. Create an array that holds your favorite colors and print them. (indexed arrays)
+
+$colors;
+$colors[0]="Black";
+$colors[1]="White";
+$colors[2]="Red";
+$colors[3]="Yellow";
+for ($i=0;$i<count($colors);$i++){
+echo $colors[$i] "<br>";
+}
+
+echo "<br>";
 
 
 
