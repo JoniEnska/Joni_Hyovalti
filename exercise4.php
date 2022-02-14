@@ -84,7 +84,7 @@ $courses4=array_flip ($courses4);
 $courses4=array_change_key_case ($courses4,CASE_UPPER);
 $courses4=array_flip ($courses4);
 foreach ($courses4 as $i){
-echo $i "<br>";
+echo $i . "<br>";
 }
 
 echo "<br>";
