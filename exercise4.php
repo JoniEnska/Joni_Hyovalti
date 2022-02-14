@@ -13,7 +13,6 @@ echo
     <li>Project</li>
 </ol>";
 
-
 /* 2. The unset() function is used to remove element from the array.
 The var_dump() function is used to dump information about a variable. 
 array_values() is an inbuilt function that 
@@ -32,8 +31,6 @@ foreach ($courses1 as $i){
     echo $i . "<br>";
 }
 echo "<br>";
-
-
 
 /* 
 3. Sort the following array 
@@ -75,7 +72,6 @@ foreach ($courses3 as $i){
 
 echo"<br>";
 
-
 /* 
  4. Change the following array's all values to upper case.
  $courses4=array("php", "html", "javascript", "cms", "project");
@@ -91,7 +87,7 @@ echo $i "<br>";
 
 echo "<br>";
 
-// 5. Create an array that holds your favorite colors and print them. (indexed arrays)
+#5. Create an array that holds your favorite colors and print them. (indexed arrays)
 
 $colors;
 $colors[0]="Black";
@@ -104,15 +100,17 @@ echo $colors[$i] "<br>";
 
 echo "<br>";
 
+#6. List all your favorite colors and their hexadecimal equivalents. (associative arrays)
+
+$arrayColors=array ("Black"=>"#000000", "White"=>"#ffffff", "Red"=>"#ff0000", "Yellow"=>"#ffff00");
+foreach ($arrayColors as $x => $x_hex) {
+echo "Color: " . $x . "<br>Colors hexadecimal equivalent: " . $x_hex . "<br>";
+}
+
+echo "<br>";
 
 
-
-// 6. List all your favorite colors and their hexadecimal equivalents. (associative arrays)
-
-
-
-
-// 7. Include 12 months in an array named month and print them using loop statement.
+#7. Include 12 months in an array named month and print them using loop statement.
 
 
 
