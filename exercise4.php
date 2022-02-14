@@ -113,8 +113,8 @@ echo "<br>";
 
 #7. Include 12 months in an array named month and print them using loop statement.
 
-$month = ("January","February","March","April","May","June","July","August","September"
-,"October","November","December");
+$month = ("January" "February" "March" "April" "May" "June" "July" "August" "September"
+"October" "November" "December");
 foreach ($month as $i){
 echo $i . "<br>";
 }
