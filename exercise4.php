@@ -26,7 +26,7 @@ $courses1=array ("PHP", "HTML", "JavaScript", "CMS", "Project");
 foreach($courses1 as $i){
     echo $i . "<br>";
 }
-echo "<br>New Array after deleting an element:<br>";
+echo "<br>New array after deleting an element<br>";
 unset ($courses1[2]);
 foreach ($courses1 as $i){
     echo $i . "<br>";
@@ -45,10 +45,35 @@ d) descending order sort by Key
 */
 
 $courses3=array ("PHP", "HTML", "JavaScript", "CMS", "Project");
-echo "a) ascending order by value<br>";
+
+echo "a) Ascending order by value<br>";
 asort ($courses3);
 foreach ($courses3 as $i){
+echo $i . "<br>";
+}
+
+echo"<br>";
+echo "b) Ascending order by Key<br>";
+ksort ($courses3);
+foreach ($courses3 as $i){
     echo $i . "<br>";
+}
+
+echo"<br>";
+echo "c) Descending order by Value<br>";
+arsort ($courses3);
+foreach ($courses3 as $i){
+    echo $i . "<br>";
+}
+
+echo"<br>";
+echo "d) Descending order by Key<br>";
+krsort ($courses3);
+foreach ($courses3 as $i){
+    echo $i . "<br>";
+}
+
+echo"<br>";
 
 
 /* 
