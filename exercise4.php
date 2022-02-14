@@ -111,7 +111,7 @@ echo "Color: " . $x . "<br>Colors hexadecimal equivalent: " . $x_hex . "<br>";
 
 echo "<br>";
 
-// 7. Include 12 months in an array named month and print them using loop statement.
+/* 7. Include 12 months in an array named month and print them using loop statement.
 
 $month = ("January","February","March","April","May","June","July","August","September"
 ,"October","November","December");
