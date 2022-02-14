@@ -89,7 +89,7 @@ echo $i . "<br>";
 
 echo "<br>";
 
-#5. Create an array that holds your favorite colors and print them. (indexed arrays)
+// 5. Create an array that holds your favorite colors and print them. (indexed arrays)
 
 $colors;
 $colors[0]="Black";
@@ -102,7 +102,7 @@ echo $colors[$i] . "<br>";
 
 echo "<br>";
 
-#6. List all your favorite colors and their hexadecimal equivalents. (associative arrays)
+// 6. List all your favorite colors and their hexadecimal equivalents. (associative arrays)
 
 $arrayColors=array ("Black"=>"#000000", "White"=>"#ffffff", "Red"=>"#ff0000", "Yellow"=>"#ffff00");
 foreach ($arrayColors as $x => $x_hex) {
@@ -111,10 +111,10 @@ echo "Color: " . $x . "<br>Colors hexadecimal equivalent: " . $x_hex . "<br>";
 
 echo "<br>";
 
-#7. Include 12 months in an array named month and print them using loop statement.
+// 7. Include 12 months in an array named month and print them using loop statement.
 
-$month = ("January, February, March, April, May, June, July, August, September
-October, November, December);
+$month = ("January","February","March","April","May","June","July","August","September"
+,"October","November","December");
 foreach ($month as $i){
 echo $i . "<br>";
 }
