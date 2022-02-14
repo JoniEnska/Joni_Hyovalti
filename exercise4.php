@@ -23,13 +23,15 @@ $courses1=array("PHP", "HTML", "JavaScript", "CMS", "Project");
 
 $courses1=array ("PHP", "HTML", "JavaScript", "CMS", "Project");
 foreach($courses1 as $i){
-    echo $i . "<br>";
+echo $i . "<br>";
 }
+
 echo "<br>New array after deleting an element<br>";
 unset ($courses1[2]);
 foreach ($courses1 as $i){
-    echo $i . "<br>";
+echo $i . "<br>";
 }
+
 echo "<br>";
 
 /* 
@@ -53,21 +55,21 @@ echo"<br>";
 echo "b) Ascending order by Key<br>";
 ksort ($courses3);
 foreach ($courses3 as $i){
-    echo $i . "<br>";
+echo $i . "<br>";
 }
 
 echo"<br>";
 echo "c) Descending order by Value<br>";
 arsort ($courses3);
 foreach ($courses3 as $i){
-    echo $i . "<br>";
+echo $i . "<br>";
 }
 
 echo"<br>";
 echo "d) Descending order by Key<br>";
 krsort ($courses3);
 foreach ($courses3 as $i){
-    echo $i . "<br>";
+echo $i . "<br>";
 }
 
 echo"<br>";
@@ -109,11 +111,15 @@ echo "Color: " . $x . "<br>Colors hexadecimal equivalent: " . $x_hex . "<br>";
 
 echo "<br>";
 
-
 #7. Include 12 months in an array named month and print them using loop statement.
 
+$month = ("January","February","March","April","May","June","July","August","September"
+,"October","November","December");
+foreach ($month as $i){
+echo $i . "<br>";
+}
 
-
+echo"<br>";
 
 /*
  8. PHP script to calculate and display average temperature, five lowest and highest temperatures.
