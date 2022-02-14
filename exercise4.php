@@ -97,7 +97,7 @@ $colors[1]="White";
 $colors[2]="Red";
 $colors[3]="Yellow";
 for ($i=0;$i<count($colors);$i++){
-echo $colors[$i] "<br>";
+echo $colors[$i] . "<br>";
 }
 
 echo "<br>";
