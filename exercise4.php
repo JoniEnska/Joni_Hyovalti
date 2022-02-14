@@ -4,10 +4,14 @@
 $courses=array("PHP", "HTML", "JavaScript", "CMS", "Project")
 */
 
-$courses = array("PHP","HTML","JavaScript","CMS","Project");
-
-list($a, $b, $c, $d, $e) = $courses;
-echo "Courses are $a,  $b , $c, $d, $e. <br>";
+echo 
+"<ol>
+    <li>PHP</li>
+    <li>HTML</li>
+    <li>JavaScript</li>
+    <li>CMS</li>
+    <li>Project</li>
+</ol>";
 
 
 /* 2. The unset() function is used to remove element from the array.
@@ -18,10 +22,16 @@ Delete an element from the array below:
 $courses1=array("PHP", "HTML", "JavaScript", "CMS", "Project");
 */
 
-$courses1=array("PHP", "HTML", "JavaScript", "CMS", "Project");
-list($a, $b, $c, $d, $e) = $courses1;
-unset($a);
-echo "Courses are $b , $c, $d, $e. <br>";
+$courses1=array ("PHP", "HTML", "JavaScript", "CMS", "Project");
+foreach($courses1 as $i){
+    echo $i . "<br>";
+}
+echo "<br>New Array after deleting an element:<br>";
+unset ($courses1[2]);
+foreach ($courses1 as $i){
+    echo $i . "<br>";
+}
+echo "<br>";
 
 
 
